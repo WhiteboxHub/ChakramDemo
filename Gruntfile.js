@@ -13,7 +13,11 @@ module.exports = function(grunt) {
                     quiet: false,
                     clearRequireCache: false
                 },
+<<<<<<< 100f69fd48c38d2eca40eb46d9730b39c54488de
                 src: ['test/*.js']
+=======
+                src: ['test/**/*.js']
+>>>>>>> Venkatesh
             }
         }
     });
