@@ -1,0 +1,13 @@
+{
+  "name": "chakram",
+  "version": "1.4.0",
+  "description": "Chakram is an API testing framework designed to test JSON REST endpoints. The library offers a BDD testing style and fully exploits javascript promises",
+  "main": "test1.js",
+  "license": "MIT",
+  "devDependencies": {
+    "chakram": "^1.4.0",
+    "grunt": "^1.0.1",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^3.0.0"
+  }
+}
