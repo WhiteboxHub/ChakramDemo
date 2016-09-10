@@ -1,6 +1,7 @@
 var chakram = require('chakram'),
     expect = chakram.expect;
 var baseUrl=require('../../config/config.json');
+
 describe("CommonTypes API testing using CHAKRAM", function () {
     it("Testing GET operation", function () {
         var response = chakram.get(baseUrl.dev + "/common/types");
