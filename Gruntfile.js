@@ -1,7 +1,6 @@
 module.exports = function(grunt) {
     // Add the grunt-mocha-test tasks.
     grunt.loadNpmTasks('grunt-mocha-test');
-
     grunt.initConfig({
         // Configure a mochaTest task
         mochaTest: {
@@ -22,5 +21,4 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('default', 'mochaTest');
-
 };
