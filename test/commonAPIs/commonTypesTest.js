@@ -70,7 +70,6 @@ describe("CommonTypes API testing using CHAKRAM", function () {
         });
         return chakram.wait();
     });
-
     it("Testing DELETE operation", function () {
         var deleteData = chakram.delete(baseUrl.dev + "/common/types/" + id);
             expect(deleteData).to.have.status(200);
